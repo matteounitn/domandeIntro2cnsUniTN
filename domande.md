@@ -107,6 +107,7 @@
   > To mitigate this type of attack, we take advantage of **avalanche effect**, concatenating `salt` to our `password`, **changing our hash digest completely.**
 
 <div style="page-break-after: always;"></div>
+
 #### Cryptography
 
 * Define the concept of “Cryptosystem” and explain how its encryption and decryption algorithms can be specified mathematically
@@ -314,6 +315,7 @@
   > In RSA is used **Factorization**, in **DH** is used **Discrete Logarithm Problem**. *(Check explanation above for each one)*
 
 <div style="page-break-after: always;"></div>
+
 #### Cryptography at work
 
 * How can PKC be used for identification (sign messages)?
@@ -551,6 +553,7 @@
   >* **Permissioned**: Not everyone can **write** the blockchain, a restricted group of users can.
 
 <div style="page-break-after: always;"></div>
+
 #### Authentication II
 
 * What is SAML?
@@ -690,6 +693,7 @@
   > If i want to open a bank account, i need my identity verified. If i'm italian and i'm trying to open a bank account in france, i need my SPID. Logging with eID National Verification System lets servers get my identity, asking the italian IdP SPID if my Identity is OK. This works by eIDAS-Connector France, which ask to eIDAS-Service in italy to give my information to the bank.
 
 <div style="page-break-after: always;"></div>
+
 #### Access control I
 
 * Define the concept of “Access Control”, draw the architecture for its enforcement, explain the role of each component in the architecture and how an access control request is handled
@@ -937,6 +941,7 @@
   > The Principle of the Least Privilege says that a subject have to know the minimum amount of information to fulfill his request.
 
 <div style="page-break-after: always;"></div>
+
 #### Access control II
 
 * Describe the purpose of OAuth 2.0 and explain what kind of security bad practice is meant to avoid. Describe also which entities are involved
@@ -1098,6 +1103,7 @@
   > ![Architecture](https://imbt.ga/BhFMMC15tS)
 
 <div style="page-break-after: always;"></div>
+
 #### Web application security
 
 * Define "web application security"
@@ -1352,6 +1358,7 @@
   > 5. This can lead to problems if i try to publish in sys channel or other channel used by IoT system, such as Fire Alarms.
 
 <div style="page-break-after: always;"></div>
+
 #### Privacy & Data protection
 
 * Define the notion of privacy. What is k-anonimity?
