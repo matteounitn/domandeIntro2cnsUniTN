@@ -1,6 +1,6 @@
 # domandeIntro2cnsUniTN
 Ciao! Qua trovate una lista di domande e risposte che vi possono aiutare a capire cosa vi verrà chiesto all'esame di **Introduction to Computer and Network Security** (UniTn).
-Docente del corso: Silvio Ranise (moodle)[https://didatticaonline.unitn.it/dol/enrol/index.php?id=32301]
+Docente del corso: Silvio Ranise ([moodle][https://didatticaonline.unitn.it/dol/enrol/index.php?id=32301])
 
 # Struttura Repository
 Il file _IntroCNS.pdf_ contiene le domande e le risposte impaginatate per una lettura comoda ed è anche adatto ad essere stampato.
@@ -23,5 +23,5 @@ Il file _IntroCNS.pdf_ è composto da 10 sezioni:
 10. Privacy and Data Protection
 
 # Crediti
-Il contenuto dei file non è stato realizzato da me, io ho solo preso i file che @matteounitn [https://github.com/matteounitn] ha realizzato e ho sistemato il suo lavoro affinchè potessere essere distribuito in una versione stampabile e impaginata correttamente.
+Il contenuto dei file non è stato realizzato da me, io ho solo preso i file che [@matteounitn](https://github.com/matteounitn]) ha realizzato e ho sistemato il suo lavoro affinchè potessere essere distribuito in una versione stampabile e impaginata correttamente.
 Ho cercato di correggere eventuali typo e errori ma se ne trovate altri non fatevi problemi a farmeli notare (potete mandarmi una push request o contattarmi su telegram @Chabby).
