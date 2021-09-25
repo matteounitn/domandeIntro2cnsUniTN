@@ -1,5 +1,6 @@
 # domandeIntro2cnsUniTN
 Ciao! Qua trovate una lista di domande e risposte che vi possono aiutare a capire cosa vi verrà chiesto all'esame di **Introduction to Computer and Network Security** (UniTn).
+
 Docente del corso: Silvio Ranise ([moodle](https://didatticaonline.unitn.it/dol/enrol/index.php?id=32301)).
 
 # Struttura Repository
