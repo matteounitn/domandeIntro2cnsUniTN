@@ -6,8 +6,6 @@ Docente del corso: Silvio Ranise ([moodle](https://didatticaonline.unitn.it/dol/
 # Struttura Repository
 Il file _IntroCNS.pdf_ contiene le domande e le risposte impaginatate per una lettura comoda ed è anche adatto ad essere stampato.
 
-Il file _domande.pdf_ è comodo per una lettura da Computer ed è disponibile in due formati (diurno e notturno).
-
 Se avete necessità di modificare il pdf _IntroCNS.pdf_, potete trovare il file sorgente nella cartella *Source* che contiene:
 - _IntroCNS.tex_: file sorgente LaTeX.
 - _img_: cartella che contiene le immagini usate all'interno del documento.
