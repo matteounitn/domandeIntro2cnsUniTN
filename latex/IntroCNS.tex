@@ -806,7 +806,7 @@
 	\item It's important to say we have \textbf{two isolation boundaries}:
 	      \begin{itemize}
 		      \item one outside \textbf{ACM}, that doesn't permit the user to get inside, he can only talk with the Guard.
-		      \item one outside \textbf{Audit Log}, because logs shouldn't be edited by no one, only added by the Guard.
+		      \item one inside \textbf{Audit Log}, because logs shouldn't be edited by no one, only added by the Guard.
 	      \end{itemize}
 	\item The \textbf{Guard authenticate the client and authorize} him/her with \textbf{policies}, giving the \textbf{resource if accepted}. For every request, Guard will \textbf{keep an Audit Log}, to post analysis if necessary.
 	\item \textbf{Access Control} can be seen as a \textbf{structured approach}:
