@@ -184,7 +184,27 @@
 	\item To mitigate this type of attack, we take advantage of \textbf{Avalanche Effect}, concatenating {\tt salt} to our {\tt password}, changing our hash digest completely.
 \end{itemize}
 
-\newpage
+\subsection{In the context of password based authentication, describe Multi-factor authentication, what is its purpose, the three available factors, along with an example and the three NIST-defined assurance levels.}
+
+\textbf{MFA} is an advanced authentication method that enhances security beyond traditional password-based systems. It requires users to present multiple proofs of identity, categorized into three types:
+
+\begin{enumerate}
+    \item \textbf{Knowledge Factor:} Something the user knows (e.g., password, PIN).
+    \item \textbf{Possession Factor:} Something the user has (e.g., smart card, smartphone).
+    \item \textbf{Inherence Factor:} Something the user is (e.g., biometrics).
+\end{enumerate}
+
+\textbf{Example:} Accessing a bank account online might require a password (knowledge), a code sent to a smartphone (possession), and a fingerprint scan (inherence).
+
+\textbf{NIST-Defined Assurance Levels}
+The National Institute of Standards and Technology (NIST) defines three levels of authentication assurance:
+
+\begin{itemize}
+    \item \textbf{NIST Level 1:} Basic assurance with at least single-factor authentication.
+    \item \textbf{NIST Level 2:} High confidence with two-factor authentication and cryptographic techniques.
+    \item \textbf{NIST Level 3:} Very high confidence with cryptographic key proof and hard cryptographic authenticator.
+\end{itemize}
+
 
 \section{Cryptography}
 
