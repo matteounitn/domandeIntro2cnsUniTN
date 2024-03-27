@@ -241,8 +241,8 @@
   >
   > 1. Find two primes big enough $p,q | p\ne q$
   > 2. Define **modulus** $N= p\cdot q$
-  > 3. Define $e= (p-1)(q-1)$
-  > 4. Find $d$ such that $e\cdot d=1\mod((p-1)(q-1))$ 
+  > 3. Find $e$ such that $GCD(e, (p-1)(q-1)) = 1$
+  > 4. Find $d$ such that $e\cdot d=1\mod((p-1)(q-1))$
   > 5. **Public key:** $(N,e)$
   > 6. **Private key:** $(d)$
   >
@@ -724,7 +724,7 @@
   > It's important to say we have **two isolation boundaries:**
   > 
   > * One outside **ACM**, that doesn't permit the user to get inside, he can only talk with the Guard.
-  >* One outside **Audit Log**, because logs shouldn't be edited by no one, only added by the guard.
+  >* One inside **Audit Log**, because logs shouldn't be edited by no one, only added by the guard.
   > 
   >The guard **authenticate the client** and **authorize him/her** with **policies**, giving the **resource if accepted**. For every request, guard will **keep an Audit Log**, to post analysis if necessary.
   > 
