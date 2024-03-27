@@ -1,5 +1,15 @@
 ## Domande di I2CNS
 
+#### Table of Contents
+
+[toc]
+
+#### Acknowledgments
+
+> **2024**: *Thanks to Simone De Carli for adding new questions.*
+>
+> **2021**: *Thanks to Chabbaki Aymane for fixing latex pdf.*
+
 #### Introduction
 
 * Define the concept of "CIA Triad"
