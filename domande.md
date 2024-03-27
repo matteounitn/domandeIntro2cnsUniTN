@@ -104,6 +104,24 @@
   >
   > To mitigate this type of attack, we take advantage of **avalanche effect**, concatenating `salt` to our `password`, **changing our hash digest completely.**
 
+* In the context of password based authentication, describe Multi-factor authentication, what is its purpose, the three available factors, along with an example and the three NIST-defined assurance levels.
+
+  > **MFA** is an advanced authentication method that enhances security beyond traditional password-based systems. It requires users to present multiple proofs of identity, categorized into three types:
+  >
+  >
+  > 1. **Knowledge Factor:** Something the user knows (e.g., password, PIN).
+  > 2. **Possession Factor:** Something the user has (e.g., smart card, smartphone).
+  > 3. **Inherence Factor:** Something the user is (e.g., biometrics).
+  >
+  > **Example:** Accessing a bank account online might require a password (knowledge), a code sent to a smartphone (possession), and a fingerprint scan (inherence).
+  >
+  > **NIST-Defined Assurance Levels**
+  > The National Institute of Standards and Technology (NIST) defines three levels of authentication assurance:
+  >
+  > * **NIST Level 1:** Basic assurance with at least single-factor authentication.
+  > * **NIST Level 2:** High confidence with two-factor authentication and cryptographic techniques.
+  > * **NIST Level 3:** Very high confidence with cryptographic key proof and hard cryptographic authenticator.
+
 #### Cryptography
 
 * Define the concept of “Cryptosystem” and explain how its encryption and decryption algorithms can be specified mathematically
@@ -223,8 +241,8 @@
   >
   > 1. Find two primes big enough $p,q | p\ne q$
   > 2. Define **modulus** $N= p\cdot q$
-  > 3. Define $e= (p-1)(q-1)$
-  > 4. Find $d$ such that $e\cdot d=1\mod((p-1)(q-1))$ 
+  > 3. Find $e$ such that $GCD(e, (p-1)(q-1)) = 1$
+  > 4. Find $d$ such that $e\cdot d=1\mod((p-1)(q-1))$
   > 5. **Public key:** $(N,e)$
   > 6. **Private key:** $(d)$
   >
@@ -706,7 +724,7 @@
   > It's important to say we have **two isolation boundaries:**
   > 
   > * One outside **ACM**, that doesn't permit the user to get inside, he can only talk with the Guard.
-  >* One outside **Audit Log**, because logs shouldn't be edited by no one, only added by the guard.
+  >* One inside **Audit Log**, because logs shouldn't be edited by no one, only added by the guard.
   > 
   >The guard **authenticate the client** and **authorize him/her** with **policies**, giving the **resource if accepted**. For every request, guard will **keep an Audit Log**, to post analysis if necessary.
   > 
